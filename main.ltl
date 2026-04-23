@@ -1,0 +1,15 @@
+// ltl-sort-bench/main.ltl
+//
+// Quicksort / merge-sort / radix-sort benchmark harness.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-sort-bench v0.1.0")
+    io::println("Quicksort / merge-sort / radix-sort benchmark harness.")
+    0
+}
